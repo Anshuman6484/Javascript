@@ -25,7 +25,15 @@
 			"settings": {
 				"editor.fontSize": 18,
 				"terminal.integrated.fontSize": 18,
-				"editor.wordWrap": "on"
+				"editor.wordWrap": "on",
+				"extensions.autoCheckUpdates": true,
+    			"extensions.autoUpdate": true,
+				"editor.formatOnSave": true,
+    			"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"prettier.tabWidth": 2,
+    			"prettier.useTabs": false,
+    			"prettier.semi": false,
+    			"prettier.singleQuote": true
 			}
 			
 		}
