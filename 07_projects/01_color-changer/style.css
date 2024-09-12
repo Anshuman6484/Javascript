@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #edf2f4;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+    /* color: #9b2226; */
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    min-width: 100vw;
+    height: 50px;
+    background-color: #001219;
+    color: #94d2bd;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .box-container {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px;
+    grid-gap: 10px;
+    padding: 10px;
+    /* justify-content: center;
+      align-items: center; */
+    place-items: center;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+    border: 4px solid #001219;
+  }
+  
+  .para {
+    margin: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    /* color: #005f73; */
+  }
+  
+  #pink {
+    background-color: #ff5d8f;
+  }
+  
+  #yellow {
+    background-color: #ffd60a;
+  }
+  
+  #sky {
+    background-color: #90e0ef;
+  }
+  
+  #green {
+    background-color: #9ef01a;
+  }
+  
+  #purple {
+    background-color: #c77dff;
+  }
+  
+  #orange {
+    background-color: #fb8500;
+  }
+  
+  @media screen and (width>=600px) {
+    .box-container {
+      grid-template-columns: repeat(3, 100px);
+      /* place-items: center; */
+      justify-content: center;
+    }
+  }
+  
